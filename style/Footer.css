@@ -1,0 +1,55 @@
+
+.footer-banner {
+    background: url('../assets/footer-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 2rem;
+
+    width: 100%;
+
+}
+
+.footer-logo h1 {
+    color: #ffffff;
+    font-size: 3rem;
+    font-weight: 700;
+
+}
+
+.footer-logo .wave {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+
+}
+
+.footer-icon-cont {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.footer-icon {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+
+.footer-icon p {
+    color: #ffffffc7;
+    font-size: 1rem;
+}
+
+.footer-content p {
+    color: #ffffff99;
+    font-size: 1rem;
+    margin: 1rem 0;
+}

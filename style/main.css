@@ -1,0 +1,66 @@
+main {
+    background: #1A0B2E;
+    margin-top: 3rem;
+
+}
+
+.t {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.about-title {
+    text-align: center;
+    color: #ffffff;
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 2rem;
+}
+
+.about-section p {
+    text-align: center;
+    color: #ffffffd1;
+    font-size: 1rem;
+    font-weight: 400;
+
+
+    line-height: 1.5;
+    max-width: 50rem;
+    margin-bottom: 4rem;
+    justify-self: center;
+}
+
+.about-card-container {
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    justify-content: space-around;
+    
+  
+    max-width: 75%;
+    margin: 2rem auto 4rem auto;
+
+}
+
+.card-title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #00FF88;
+}
+
+.card p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #ffffffd1;
+    line-height: 1.5;
+
+}
+
+.card {
+    margin: 3rem auto;
+}

@@ -1,0 +1,78 @@
+.hero-section {
+    background: url('../assets/hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.mic-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.microphone {
+    position: absolute;
+
+}
+
+.new {
+    position: absolute;
+    top: 10px;
+    right: 8rem;
+    background-color: #00FF88;
+    color: #000000;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border-radius: 12px;
+    border: none;
+    box-shadow: #00000033 0px 4px 6px -1px, #0000001a 0px 2px 4px -1px;
+}
+
+.hero-content {
+    text-align: center;
+    color: #ffffff;
+    margin-top: 5rem;
+}
+
+.hero-content h2 {
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+.hero-content p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #ffffffd7;
+    margin-bottom: 2rem;
+
+}
+
+.btn-gradient2 {
+    border: 1px solid #00FF88;
+    border-radius: 10000px;
+    cursor: pointer;
+    color: #00FF88;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.5rem 1.5rem;
+    background: #1A0B2E;
+}
+
+.spotify {
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+    display: inline-flex;
+    align-items: center;
+    margin: 1rem 1rem;
+
+}
