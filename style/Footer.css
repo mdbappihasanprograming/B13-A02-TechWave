@@ -4,8 +4,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    margin-top: 2rem;
-
+    margin-top:2rem;
     width: 100%;
 
 }
@@ -31,15 +30,14 @@
 
 }
 
-.footer-icon-cont {
+.social-icons {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
 
-.footer-icon {
+.social-icon {
     display: inline-flex;
     align-items: center;
-    gap: 0.5rem;
     cursor: pointer;
 }
 
